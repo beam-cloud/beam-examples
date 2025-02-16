@@ -5,3 +5,4 @@ __downloads__
 .venv/
 .vscode/launch.json
 .secrets
+node_modules/
