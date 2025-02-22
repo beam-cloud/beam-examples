@@ -80,7 +80,7 @@ def generate(context, prompt="medieval rich kingpin sitting in a tavern, raw"):
     )
 
     # Activate the LoRA
-    pipe.set_adapters(["raw"], adapter_weights=[2.0])
+    pipe.set_adapters([adapter_name], adapter_weights=[2.0])
 
     # Generate image
     image = pipe(
